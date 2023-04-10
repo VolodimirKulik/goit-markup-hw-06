@@ -606,7 +606,7 @@ img {
 
 .footer-ikon {}
 .footer-container-form {
-    margin-left: 80px;
+  margin-left: 58px;
 }
 
 .footer-title-sub {
@@ -789,6 +789,7 @@ img {
     line-height: 14px;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
+    padding: 8px 16px;
 }
 .modal-textarea:focus{
     border-color: #4D5AE5;
@@ -802,6 +803,19 @@ img {
     line-height: 14px;   
     letter-spacing: 0.01em;
      color: #8E8F99;
+}
+.label-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: #4D5AE5;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 .modal-btn-send{
     display: flex;
@@ -859,7 +873,7 @@ img {
     margin-bottom: 24px;
 }
 .container-footer-form{
-    margin-bottom: 26px;
+    margin-bottom: 8px;
    
 }
 .container-footer-input{
